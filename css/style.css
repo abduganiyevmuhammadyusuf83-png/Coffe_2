@@ -17,10 +17,8 @@ body {
   background: #fff;
 }
 
-
-
 a {
-  font-family: "Josefin Sans", sans-serif; 
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 100%;
@@ -61,7 +59,7 @@ ul {
 }
 
 .logo-name {
-  font-family:  "Cedarville Cursive", cursive;;
+  font-family: "Cedarville Cursive", cursive;
   font-size: 32px;
   font-weight: 400;
 }
@@ -86,7 +84,7 @@ ul {
   padding: 15px 30px;
   color: #fff;
   border-radius: 7px;
-  background: #2D635E;
+  background: #2d635e;
 }
 
 /* Coffe Shop */
@@ -116,7 +114,7 @@ ul {
 }
 
 .coffe-label {
-  font-family: "Josefin Sans", sans-serif ;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 54px;
 }
 
@@ -132,7 +130,7 @@ ul {
   padding: 20px 30px;
   color: #fff;
   border-radius: 8px;
-  background: #2D635E;
+  background: #2d635e;
   text-align: center;
 }
 
@@ -161,9 +159,8 @@ ul {
   left: -149px;
   width: 149px;
   height: 147px;
-  background-color: #E3EBE7;
+  background-color: #e3ebe7;
 }
-
 
 /* Vertical text */
 
@@ -200,7 +197,7 @@ ul {
 }
 
 .cup-text p {
-  font-family: "Alegreya Sans", sans-serif ;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 19px;
   font-weight: 400;
   line-height: 36px;
@@ -251,7 +248,7 @@ ul {
   color: #fff;
   border-radius: 5px;
   font-size: 15px;
-  background: #2D635E;
+  background: #2d635e;
   text-align: center;
 }
 
@@ -262,7 +259,7 @@ ul {
 }
 
 .americano-text p {
-  font-family: "Alegreya Sans", sans-serif ;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 19px;
   font-weight: 400;
   line-height: 36px;
@@ -274,7 +271,7 @@ ul {
   left: 0;
   width: 410px;
   height: 276px;
-  background-color: #E3EBE7;
+  background-color: #e3ebe7;
   z-index: 1;
 }
 .americano img {
@@ -289,7 +286,7 @@ ul {
 /* Cards */
 
 .cards-section {
-  background-color: #E3EBE7;
+  background-color: #e3ebe7;
   padding: 40px;
   margin-top: 120px;
   text-align: center;
@@ -305,7 +302,7 @@ ul {
 .card-content {
   width: 340px;
   height: 458px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 10p rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -335,13 +332,13 @@ ul {
   color: #fff;
   border-radius: 5px;
   font-size: 15px;
-  background: #2D635E;
+  background: #2d635e;
   text-align: center;
 }
 
 /* Map Section */
 
-.map-section .container{
+.map-section .container {
   display: flex;
   padding-top: 90px;
 }
@@ -354,7 +351,7 @@ ul {
 .divider {
   width: 100px;
   height: 2px;
-  background-color: #444A4A;
+  background-color: #444a4a;
   margin: 30px;
 }
 
@@ -363,14 +360,14 @@ ul {
 }
 
 .adress h3 {
-  font-family:"Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   line-height: 30px;
   font-weight: 500;
 }
 
 .adress p {
-  font-family:"Alegreya Sans", sans-serif ;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 19px;
   line-height: 50px;
   font-weight: 300;
@@ -379,7 +376,7 @@ ul {
 /* Last */
 
 .last {
-  font-family:"Alegreya Sans", sans-serif ;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 19px;
   font-weight: 400;
   line-height: 36px;
@@ -387,101 +384,608 @@ ul {
   text-align: center;
 }
 
-@media( max-width : 1360px) {
-
+@media (max-width: 1360px) {
   /* Cup SEction */
-.cup-box {
-  position: relative;
-  top: 0;
-  left: -45px;
-  width: 340px;
-  height: 257px;
-  background-color: #fae9e0;
-  z-index: 1;
-}
-.cup img {
-  position: relative;
-  top: 50px;
-  left: 30px;
-  width: 344px;
-  height: 242px;
-  z-index: 2;
-}
-}
-
-@media ( max-width : 1200px) {
-
-/* Coffe Label */
-
-.coffe-motto {
-  font-size: 23px;
-  font-weight: 300;
+  .cup-box {
+    position: relative;
+    top: 0;
+    left: -45px;
+    width: 340px;
+    height: 257px;
+    background-color: #fae9e0;
+    z-index: 1;
+  }
+  .cup img {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 344px;
+    height: 242px;
+    z-index: 2;
+  }
 }
 
-.coffe-label {
-  font-size: 40px;
+@media (max-width: 1200px) {
+  /* Coffe Label */
+
+  .coffe-motto {
+    font-size: 23px;
+    font-weight: 300;
+  }
+
+  .coffe-label {
+    font-size: 40px;
+  }
+
+  .order-btn {
+    width: 200px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+  }
+  /* Cup section */
+
+  .cup-section {
+    background: #fff;
+    padding: 90px;
+  }
+
+  .cup-section .container {
+    padding: 20px;
+  }
+
+  .cup-text {
+    height: 230px;
+  }
+
+  .cup-text h2 {
+    font-size: 30px;
+  }
+
+  .cup-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .cup-box {
+    left: -50px;
+    width: 300px;
+    height: 230px;
+  }
+  .cup img {
+    top: 50px;
+    left: 30px;
+    width: 300px;
+    height: 210px;
+  }
+
+  /* Cards Section */
+
+  .cards-section {
+    padding: 20px;
+  }
+
+  .card-content {
+    width: 290px;
+    height: 400px;
+    border-radius: 12px;
+    padding: 10px;
+    line-height: 20px;
+  }
+
+  .card-content h3 {
+    font-size: 30px;
+  }
+
+  .card-content p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* Map Section */
+
+  .map-section .container {
+    display: flex;
+    padding-top: 30px;
+    margin: 40px;
+  }
+
+  .divider {
+    width: 95px;
+    height: 2px;
+    background-color: #444a4a;
+    margin: 20px;
+  }
+
+  .adress h3 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+
+  .adress p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 300;
+  }
 }
 
-.order-btn {
-  width: 200px;
-  height: 45px;
-  font-size: 20px;
-  font-weight: 400;
-  padding: 15px;
-}
-/* Cup section */
+@media (max-width: 990px) {
+  /* Logo */
+  .logo-name {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  .navbar .main-menu {
+    gap: 2px;
+  }
 
-.cup-section {
-  background: #fff;
-  padding: 90px;
+  .container {
+    max-width: 990px;
+    padding: 0 20px;
+  }
+
+  .btn {
+    width: 120px;
+    height: 40px;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 7px;
+    background: #2d635e;
+  }
+
+  /* Grinds Section */
+
+  .coffe-box {
+    width: 250px;
+    height: 306px;
+  }
+
+  .follow-text {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .grinds-section img {
+    bottom: -30px;
+    right: 0;
+    width: 244px;
+    height: 280px;
+  }
+
+  .small-box {
+    left: -99px;
+    width: 99px;
+    height: 90px;
+  }
+
+  /* Coffe Label */
+
+  .coffe-motto {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .coffe-label {
+    font-size: 30px;
+  }
+
+  .order-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+  }
+
+  /* Cup section */
+
+  .cup-section {
+    padding: 70px;
+  }
+
+  .cup-text {
+    height: 200px;
+  }
+
+  .cup-text h2 {
+    font-size: 20px;
+  }
+
+  .cup-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .cup-box {
+    left: -50px;
+    width: 250px;
+    height: 200px;
+  }
+  .cup img {
+    top: 50px;
+    left: 20px;
+    width: 210px;
+    height: 180px;
+  }
+
+  /* Americano Section */
+
+  .americano-section {
+    padding: 20px;
+  }
+
+  .americano-text {
+    width: 430px;
+    height: 138px;
+  }
+
+  .btn-order {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+
+  .americano-text h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .americano-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .americano-box {
+    top: 40px;
+    width: 280px;
+    height: 180px;
+  }
+  .americano img {
+    left: 40px;
+    width: 146px;
+    height: 220px;
+    bottom: 30px;
+  }
+
+  /* Cards Section */
+
+  .cards-section {
+    padding: 20px;
+  }
+
+  .card-content {
+    width: 212px;
+    height: 260px;
+    border-radius: 12px;
+    padding: 10px;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+  }
+
+  .card-content p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 23px;
+  }
+
+  .card-button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+
+  /* Map Section */
+
+  .map-section .container {
+    padding-top: 50px;
+  }
+
+  .map img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .divider {
+    width: 100px;
+    height: 2px;
+    background-color: #444a4a;
+    margin: 25px;
+  }
+
+  .adress {
+    margin: 20px;
+  }
+
+  .adress h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .adress p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+  }
 }
 
-.cup-section .container {
-  padding: 20px;
+@media (max-width: 768px) {
+  .navbar .main-menu,
+  .grinds-section {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    position: absolute;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .hamburger span {
+    width: 40px;
+    height: 3px;
+    background-color: #141414;
+  }
+
+  /* Coffe Shop */
+
+  .coffe-shop {
+    background: #fff;
+    padding: 20px;
+  }
+
+  .coffe-shop .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .coffe-labels {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  .coffe-motto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .coffe-label {
+    font-size: 45px;
+  }
+
+  .order-btn {
+    width: 120px;
+    height: 40px;
+    padding: 15px;
+    margin-left: 60px;
+  }
+
+  /* Cup section */
+
+  .cup-section {
+    padding: 70px;
+  }
+
+  .cup-text {
+    height: 310px;
+  }
+
+  .cup-text h2 {
+    font-size: 15px;
+  }
+
+  .cup-text p {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .cup-box {
+    left: -50px;
+    width: 200px;
+    height: 250px;
+  }
+  .cup img {
+    top: 40px;
+    left: 10px;
+    width: 210px;
+    height: 180px;
+  }
+
+  /* Map Section */
+
+  .map-section .container {
+    padding-top: 50px;
+  }
+
+  .map img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .divider {
+    width: 70px;
+    height: 2px;
+    margin: 20px;
+  }
+
+  .adress {
+    margin: 10px;
+  }
+
+  .adress h3 {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .adress p {
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
+  }
 }
 
-.cup-text {
-  height: 230px;
-}
+@media (max-width: 576px) {
 
-.cup-text h2 {
-  font-size: 30px;
-}
+  .order, .americano img , .americano-box , .divider {
+    display: none;
+  }
 
-.cup-text p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 32px;
-}
+  .order-btn {
+    width: 160px;
+  }
 
-.cup-box {
-  left: -50px;
-  width: 300px;
-  height: 230px;
-}
-.cup img {
-  top: 50px;
-  left: 30px;
-  width: 300px;
-  height: 210px;
-}
+   .hamburger {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  /* Cup section */
 
-/* Cards Section */
+  .cup-section .container{
+    flex-direction: column;
+  }
+
+  .cup-text {
+  
+    margin-left: 30px;
+    width: 500px;
+    height: 310px;
+  }
+
+  .cup-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    
+  }
+
+  .cup-text p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .cup-box {
+    left: -50px;
+    width: 700px;
+    height: 230px;
+  }
+  .cup img {
+    top: 0px;
+    left: 280px;
+    width: 270px;
+    height: 230px;
+  }
+
+  /* Americano Section */
+
+  .americano-section .container{
+    flex-direction: column;
+  }
+
+  .americano-text {
+    width: 500px;
+    height: 130px;
+    margin-left: 30px;
+  }
+
+
+
+  .americano-text h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .americano-text p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  /* Map Section */
+
+  .map-section .container {
+    flex-direction: column;
+  }
+
+  .map img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .adress {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .adress h3 {
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  .adress p {
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 300;
+  }
+
+  /* Cards */
 
 .cards-section {
-  padding: 20px;
+  background-color: #fff;
+  padding: 40px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.cards-section .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card-content {
-  width: 290px;
-  height: 400px;
-  border-radius: 12px;
-  padding: 10px;
-  line-height: 20px;
+  width: 340px;
+  height: 458px;
+  background-color: #f3eeee;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10p rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 50px 30px;
+  line-height: 59px;
 }
 
 .card-content h3 {
-  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
 }
 
 .card-content p {
@@ -493,367 +997,13 @@ ul {
   text-align: center;
 }
 
-/* Map Section */
-
-.map-section .container{
-  display: flex;
-  padding-top: 30px;
-  margin: 40px;
-}
-
-.divider {
-  width: 95px;
-  height: 2px;
-  background-color: #444A4A;
-  margin: 20px;
-}
-
-.adress h3 {
-  font-size: 23px;
-  line-height: 30px;
-  font-weight: 500;
-}
-
-.adress p {
-  font-family:"Alegreya Sans", sans-serif ;
-  font-size: 15px;
-  line-height: 50px;
-  font-weight: 300;
-}
-
-}
-
-@media( max-width: 990px ) {
-
-/* Logo */
-.logo-name {
-  font-size: 25px;
-  font-weight: 300;
-}
-.navbar .main-menu {
-  gap: 2px;
-}
-
-.container {
-  max-width: 990px;
-  padding: 0 20px;
-}
-
-.btn {
-  width: 120px;
-  height: 40px;
-  padding: 15px 20px;
+.card-button {
+  padding: 15px 30px;
   color: #fff;
-  border-radius: 7px;
-  background: #2D635E;
-}
-
-/* Grinds Section */
-
-.coffe-box {
-  width: 250px;
-  height: 306px;
-}
-
-.follow-text {
-  font-size: 15px;
-  letter-spacing: 3px;
-}
-
-.grinds-section img {
-  bottom: -30px;
-  right: 0;
-  width: 244px;
-  height: 280px;
-}
-
-.small-box {
-  left: -99px;
-  width: 99px;
-  height: 90px;
-}
-
-/* Coffe Label */
-
-.coffe-motto {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.coffe-label {
-  font-size: 30px;
-}
-
-.order-btn {
-  width: 120px;
-  height: 40px;
-  font-size: 15px;
-  font-weight: 400;
-  padding: 15px;
-}
-
-/* Cup section */
-
-.cup-section {
-  padding: 70px;
-}
-
-
-.cup-text {
-  height: 200px;
-}
-
-.cup-text h2 {
-  font-size: 20px;
-}
-
-.cup-text p {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 25px;
-}
-
-.cup-box {
-  left: -50px;
-  width: 250px;
-  height: 200px;
-}
-.cup img {
-  top: 50px;
-  left: 20px;
-  width: 210px;
-  height: 180px;
-}
-
-/* Americano Section */
-
-.americano-section {
-  padding: 20px;
-}
-
-.americano-text {
-  width: 430px;
-  height: 138px;
-}
-
-.btn-order {
-  padding: 10px 20px;
   border-radius: 5px;
   font-size: 15px;
+  background: #2d635e;
+  text-align: center;
 }
 
-.americano-text h2 {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.americano-text p {
- font-size: 13px;
-  font-weight: 400;
-  line-height: 25px;
-}
-
-.americano-box {
-  top: 40px;
-  width: 280px;
-  height: 180px;
-}
-.americano img {
-  left: 40px;
-  width: 146px;
-  height: 220px;
-  bottom: 30px;
-}
-
-/* Cards Section */
-
-.cards-section {
-  padding: 20px;
-}
-
-.card-content {
-  width: 212px;
-  height: 260px;
-  border-radius: 12px;
-  padding: 10px;
-}
-
-.card-content h3 {
-  font-size: 20px;
-}
-
-.card-content p {
-  font-size: 15px;
-  line-height: 20px;
-  padding: 23px;
-}
-
-.card-button {
-  padding: 10px 20px;
-  border-radius: 3px;
-  font-size: 10px;
-}
-
-/* Map Section */
-
-.map-section .container{
-  padding-top: 50px;
-}
-
-.map img {
-  width: 100%;
-  height: 200px;
-}
-
-.divider {
-  width: 100px;
-  height: 2px;
-  background-color: #444A4A;
-  margin: 25px;
-}
-
-.adress {
-  margin: 20px;
-}
-
-.adress h3 {
-  font-family:"Josefin Sans", sans-serif;
-  font-size: 25px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-.adress p {
-  font-family:"Alegreya Sans", sans-serif ;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 300;
-}
-
-}
-
-/*  768px dan kichik */
-@media (max-width: 768px) {
-
-  .navbar .main-menu, .grinds-section {
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-   position: absolute;
-   right: 40px;
-   display: flex;
-   flex-direction: column;
-   gap: 6px;
-}
-.hamburger span {
-    width: 40px;
-    height: 3px;
-    background-color: #141414;
-  }
-
-  /* Coffe Shop */
-
-.coffe-shop {
-  background: #fff;
-  padding: 20px;
-}
-
-.coffe-shop .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.coffe-labels {
-  flex-direction: column;
-  margin: 0 auto;
-  gap: 30px;
-}
-
-.coffe-motto {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 100%;
-}
-
-.coffe-label {
-  font-size: 45px;
-}
-
-.order-btn {
-  width: 120px;
-  height: 40px;
-  padding: 15px;
-  margin-left: 60px;
-}
-
-/* Cup section */
-
-.cup-section {
-  padding: 70px;
-}
-
-
-.cup-text {
-  height: 310px;
-}
-
-.cup-text h2 {
-  font-size: 15px;
-}
-
-.cup-text p {
-  font-size: 12px;
-  line-height: 25px;
-}
-
-.cup-box {
-  left: -50px;
-  width: 200px;
-  height: 250px;
-}
-.cup img {
-  top: 40px;
-  left: 10px;
-  width: 210px;
-  height: 180px;
-}
-
-/* Map Section */
-
-.map-section .container{
-  padding-top: 50px;
-}
-
-.map img {
-  width: 100%;
-  height: 150px;
-}
-
-.divider {
-  width: 70px;
-  height: 2px;
-  margin: 20px;
-}
-
-.adress {
-  margin: 10px;
-}
-
-.adress h3 {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-}
-
-.adress p {
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: 300;
-}
 }
