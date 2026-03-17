@@ -729,4 +729,131 @@ ul {
   line-height: 20px;
   font-weight: 300;
 }
+
+}
+
+/*  768px dan kichik */
+@media (max-width: 768px) {
+
+  .navbar .main-menu, .grinds-section {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+   position: absolute;
+   right: 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+}
+.hamburger span {
+    width: 40px;
+    height: 3px;
+    background-color: #141414;
+  }
+
+  /* Coffe Shop */
+
+.coffe-shop {
+  background: #fff;
+  padding: 20px;
+}
+
+.coffe-shop .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffe-labels {
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.coffe-motto {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.coffe-label {
+  font-size: 45px;
+}
+
+.order-btn {
+  width: 120px;
+  height: 40px;
+  padding: 15px;
+  margin-left: 60px;
+}
+
+/* Cup section */
+
+.cup-section {
+  padding: 70px;
+}
+
+
+.cup-text {
+  height: 310px;
+}
+
+.cup-text h2 {
+  font-size: 15px;
+}
+
+.cup-text p {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.cup-box {
+  left: -50px;
+  width: 200px;
+  height: 250px;
+}
+.cup img {
+  top: 40px;
+  left: 10px;
+  width: 210px;
+  height: 180px;
+}
+
+/* Map Section */
+
+.map-section .container{
+  padding-top: 50px;
+}
+
+.map img {
+  width: 100%;
+  height: 150px;
+}
+
+.divider {
+  width: 70px;
+  height: 2px;
+  margin: 20px;
+}
+
+.adress {
+  margin: 10px;
+}
+
+.adress h3 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.adress p {
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 300;
+}
 }
