@@ -346,8 +346,13 @@ ul {
   padding-top: 90px;
 }
 
+.map img {
+  width: 100%;
+  height: 300px;
+}
+
 .divider {
-  width: 102px;
+  width: 100px;
   height: 2px;
   background-color: #444A4A;
   margin: 30px;
@@ -360,14 +365,14 @@ ul {
 .adress h3 {
   font-family:"Josefin Sans", sans-serif;
   font-size: 32px;
-  line-height: 45px;
+  line-height: 30px;
   font-weight: 500;
 }
 
 .adress p {
   font-family:"Alegreya Sans", sans-serif ;
   font-size: 19px;
-  line-height: 56px;
+  line-height: 50px;
   font-weight: 300;
 }
 
@@ -382,11 +387,13 @@ ul {
   text-align: center;
 }
 
-@media(max-width: 1350px) {
- .cup-box {
+@media( max-width : 1360px) {
+
+  /* Cup SEction */
+.cup-box {
   position: relative;
   top: 0;
-  left: -40px;
+  left: -45px;
   width: 340px;
   height: 257px;
   background-color: #fae9e0;
@@ -402,27 +409,65 @@ ul {
 }
 }
 
-@media(max-width: 1220px) {
+@media ( max-width : 1200px) {
+
+/* Coffe Label */
+
+.coffe-motto {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.coffe-label {
+  font-size: 40px;
+}
+
+.order-btn {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px;
+}
+/* Cup section */
+
+.cup-section {
+  background: #fff;
+  padding: 90px;
+}
+
+.cup-section .container {
+  padding: 20px;
+}
+
+.cup-text {
+  height: 230px;
+}
+
+.cup-text h2 {
+  font-size: 30px;
+}
+
+.cup-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
 
 .cup-box {
-  position: relative;
-  top: 0;
-  left: -100px;
-  width: 340px;
-  height: 257px;
-  background-color: #fae9e0;
-  z-index: 1;
+  left: -50px;
+  width: 300px;
+  height: 230px;
 }
 .cup img {
-  position: relative;
   top: 50px;
-  left: 10px;
-  width: 344px;
-  height: 242px;
-  z-index: 2;
+  left: 30px;
+  width: 300px;
+  height: 210px;
 }
-}
-@media(max-width: 1179px) {
+
+/* Cards Section */
+
 .cards-section {
   padding: 20px;
 }
@@ -447,4 +492,33 @@ ul {
   padding: 30px;
   text-align: center;
 }
+
+/* Map Section */
+
+.map-section .container{
+  display: flex;
+  padding-top: 30px;
+  margin: 40px;
+}
+
+.divider {
+  width: 95px;
+  height: 2px;
+  background-color: #444A4A;
+  margin: 20px;
+}
+
+.adress h3 {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.adress p {
+  font-family:"Alegreya Sans", sans-serif ;
+  font-size: 15px;
+  line-height: 50px;
+  font-weight: 300;
+}
+
 }
