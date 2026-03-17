@@ -848,8 +848,10 @@ ul {
 }
 
 @media (max-width: 576px) {
-
-  .order, .americano img , .americano-box , .divider {
+  .order,
+  .americano img,
+  .americano-box,
+  .divider {
     display: none;
   }
 
@@ -857,7 +859,7 @@ ul {
     width: 160px;
   }
 
-   .hamburger {
+  .hamburger {
     position: absolute;
     right: 10px;
     display: flex;
@@ -866,12 +868,11 @@ ul {
   }
   /* Cup section */
 
-  .cup-section .container{
+  .cup-section .container {
     flex-direction: column;
   }
 
   .cup-text {
-  
     margin-left: 30px;
     width: 500px;
     height: 310px;
@@ -880,7 +881,6 @@ ul {
   .cup-text h2 {
     font-size: 30px;
     font-weight: 700;
-    
   }
 
   .cup-text p {
@@ -902,7 +902,7 @@ ul {
 
   /* Americano Section */
 
-  .americano-section .container{
+  .americano-section .container {
     flex-direction: column;
   }
 
@@ -911,8 +911,6 @@ ul {
     height: 130px;
     margin-left: 30px;
   }
-
-
 
   .americano-text h2 {
     font-weight: 500;
@@ -955,55 +953,163 @@ ul {
 
   /* Cards */
 
-.cards-section {
-  background-color: #fff;
-  padding: 40px;
-  margin-top: 120px;
-  text-align: center;
+  .cards-section {
+    background-color: #fff;
+    padding: 40px;
+  }
+
+  .card-content {
+    width: 340px;
+    height: 408px;
+    background-color: #f3eeee;
+  }
+
+  .card-content h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  .card-content p {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .card-button {
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #2d635e;
+    text-align: center;
+  }
 }
 
-.cards-section .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+@media (max-width: 480px) {
+  /* Hamberger */
 
-.card-content {
-  width: 340px;
-  height: 458px;
-  background-color: #f3eeee;
-  border-radius: 10px;
-  box-shadow: 0px 5px 10p rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  padding: 50px 30px;
-  line-height: 59px;
-}
+  .hamburger {
+    left: 40px;
+  }
 
-.card-content h3 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 100%;
-  text-align: center;
-}
+  .container .logo {
+    gap: 10px;
+  }
 
-.card-content p {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 36px;
-  padding: 30px;
-  text-align: center;
-}
+  .logo img {
+    width: 50px;
+    height: 45px;
+  }
 
-.card-button {
-  padding: 15px 30px;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 15px;
-  background: #2d635e;
-  text-align: center;
-}
+  .logo-name {
+    font-size: 35px;
+    font-weight: 400;
+  }
 
+  .logo {
+    margin: 50px;
+  }
+
+  /* Coffe Shop */
+
+  .coffe-shop {
+    padding: 30px;
+  }
+
+  .coffe-shop .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .coffe-labels {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  .coffe-motto {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .coffe-label {
+    font-size: 40px;
+  }
+
+  /* Cup section */
+
+  .cup-section .container {
+    flex-direction: column;
+  }
+
+  .cup-text {
+    width: 340px;
+    height: 591px;
+  }
+
+  .cup-text h2 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .cup-text p {
+    font-size: 19px;
+    line-height: 36px;
+  }
+
+  .cup-box {
+    left: -50px;
+    width: 700px;
+    height: 170px;
+  }
+  .cup img {
+    top: -30px;
+    left: 270px;
+    width: 270px;
+    height: 200px;
+  }
+
+  /* Americano */
+
+  .americano-text {
+    width: 334px;
+    height: 371px;
+    margin-left: 30px;
+  }
+
+  .americano-text h2 {
+    font-size: 36px;
+  }
+
+  .americano-text p {
+    line-height: 36px;
+  }
+
+  /* Cards */
+
+  .cards-section {
+    background-color: #fff;
+    padding: 40px;
+  }
+
+  .card-content {
+    width: 340px;
+    height: 408px;
+    background-color: #f3eeee;
+  }
+
+  .card-content h3 {
+    font-size: 28px;
+  }
+
+  .card-content p {
+    padding: 25px;
+  }
 }
