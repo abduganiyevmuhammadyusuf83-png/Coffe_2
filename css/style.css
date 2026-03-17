@@ -93,7 +93,7 @@ ul {
 
 .coffe-shop {
   background: #fff;
-  padding: 30px;
+  padding: 20px;
 }
 
 .coffe-shop .container {
@@ -140,8 +140,8 @@ ul {
   position: relative;
   top: 0;
   right: 0;
-  width: 410px;
-  height: 466px;
+  width: 340px;
+  height: 406px;
   background-color: #d5e7df;
   z-index: 1;
 }
@@ -149,8 +149,8 @@ ul {
 .grinds-section img {
   position: absolute;
   bottom: -50px;
-  right: 20px;
-  width: 344px;
+  right: 10px;
+  width: 304px;
   height: 373px;
   z-index: 2;
 }
@@ -158,9 +158,9 @@ ul {
 .small-box {
   position: absolute;
   bottom: 0;
-  left: -159px;
-  width: 159px;
-  height: 157px;
+  left: -149px;
+  width: 149px;
+  height: 147px;
   background-color: #E3EBE7;
 }
 
@@ -171,6 +171,280 @@ ul {
   font-family: "Josefin Sans", sans-serif;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+/* Cup section */
+
+.cup-section {
+  background: #fff;
+  padding: 150px;
+}
+
+.cup-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cup-text {
+  width: 645px;
+  height: 290px;
+}
+
+.cup-text h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.cup-text p {
+  font-family: "Alegreya Sans", sans-serif ;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.cup-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 257px;
+  background-color: #fae9e0;
+  z-index: 1;
+}
+.cup img {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 344px;
+  height: 242px;
+  z-index: 2;
+}
+
+/* Americano Section */
+
+.americano-section {
+  background: #fff;
+  padding: 40px;
+}
+
+.americano-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.americano-text {
+  width: 615px;
+  height: 238px;
+}
+
+.order {
+  margin-top: 20px;
+}
+
+.btn-order {
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #2D635E;
+  text-align: center;
+}
+
+.americano-text h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.americano-text p {
+  font-family: "Alegreya Sans", sans-serif ;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.americano-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 410px;
+  height: 276px;
+  background-color: #E3EBE7;
+  z-index: 1;
+}
+.americano img {
+  position: relative;
+  bottom: 33px;
+  left: 90px;
+  width: 236px;
+  height: 320px;
+  z-index: 2;
+}
+
+/* Cards */
+
+.cards-section {
+  background-color: #E3EBE7;
+  padding: 40px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.cards-section .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card-content {
+  width: 340px;
+  height: 458px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10p rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 30px 30px;
+  line-height: 59px;
+}
+
+.card-content h3 {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 28px;
-  letter-spacing: 3px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+}
+
+.card-content p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card-button {
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #2D635E;
+  text-align: center;
+}
+
+/* Map Section */
+
+.map-section .container{
+  display: flex;
+  padding-top: 90px;
+}
+
+.divider {
+  width: 102px;
+  height: 2px;
+  background-color: #444A4A;
+  margin: 30px;
+}
+
+.adress {
+  margin: 10px;
+}
+
+.adress h3 {
+  font-family:"Josefin Sans", sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.adress p {
+  font-family:"Alegreya Sans", sans-serif ;
+  font-size: 19px;
+  line-height: 56px;
+  font-weight: 300;
+}
+
+/* Last */
+
+.last {
+  font-family:"Alegreya Sans", sans-serif ;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+@media(max-width: 1350px) {
+ .cup-box {
+  position: relative;
+  top: 0;
+  left: -40px;
+  width: 340px;
+  height: 257px;
+  background-color: #fae9e0;
+  z-index: 1;
+}
+.cup img {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  width: 344px;
+  height: 242px;
+  z-index: 2;
+}
+}
+
+@media(max-width: 1220px) {
+
+.cup-box {
+  position: relative;
+  top: 0;
+  left: -100px;
+  width: 340px;
+  height: 257px;
+  background-color: #fae9e0;
+  z-index: 1;
+}
+.cup img {
+  position: relative;
+  top: 50px;
+  left: 10px;
+  width: 344px;
+  height: 242px;
+  z-index: 2;
+}
+}
+@media(max-width: 1179px) {
+.cards-section {
+  padding: 20px;
+}
+
+.card-content {
+  width: 290px;
+  height: 400px;
+  border-radius: 12px;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.card-content h3 {
+  font-size: 30px;
+}
+
+.card-content p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 30px;
+  text-align: center;
+}
 }
